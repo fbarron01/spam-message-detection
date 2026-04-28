@@ -1,0 +1,12 @@
+name: spam-detector
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - streamlit
+      - tensorflow-cpu==2.16.1
+      - pandas
+      - numpy
+      - scikit-learn
